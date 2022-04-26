@@ -27,6 +27,10 @@ add_subdirectory(Hyperstar_RouseMatrix)
 # Rouse Matrix evaluation of Hyperdendrimer
 add_subdirectory(Hyperdendrimer_RouseMatrix)
 
+# Creator of BarabasiAlbert for m=1 and initial m0=2
+# without excluded volume nor restricted functionality
+add_subdirectory(BarabasiAlbert_Creator)
+
 # Rouse Matrix evaluation of BarabasiAlbert for m=1 and initial m0=2
 add_subdirectory(BarabasiAlbert_RouseMatrix)
 
@@ -47,4 +51,6 @@ add_subdirectory(SlowGrowth_RouseMatrix)
 # Perfect Dendrimer generation algorithm
 add_subdirectory(CreateDendrimerGeneral_FGS)
 
+# Analyzer for extracting the topological properties of the tree (not generic graphs)
+add_subdirectory(Analyzer_TopologicalPropertiesTree)
 
