@@ -1,27 +1,27 @@
 /*--------------------------------------------------------------------------------
-    ooo      L   attice-based  |
-  o\.|./o    e   xtensible     | LeMonADE: An Open Source Implementation of the
- o\.\|/./o   Mon te-Carlo      |           Bond-Fluctuation-Model for Polymers
-oo---0---oo  A   lgorithm and  |
- o/./|\.\o   D   evelopment    | Copyright (C) 2018,2021 by
+    ooo      L   attice-based  | LeMonADE: An Open Source Implementation of the
+  o\.|./o    e   xtensible     |           Bond-Fluctuation-Model for Polymers
+ o\.\|/./o   Mon te-Carlo      |           
+oo---0---oo  A   lgorithm and  | ELMA-BraCat: Extension for branched catalysis 
+ o/./|\.\o   D   evelopment    | Copyright (C) 2018,2021,2022 by
   o/.|.\o    E   nvironment    | LeMonADE Principal Developers
-    ooo                        | Ron Dockhorn
+    ooo      ELMA-BraCat       | Ron Dockhorn
 ----------------------------------------------------------------------------------
 
-This file is part of LeMonADE.
+This file is part of LeMonADE and ELMA-BraCat extension.
 
-LeMonADE is free software: you can redistribute it and/or modify
+LeMonADE and ELMA-BraCat extension is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-LeMonADE is distributed in the hope that it will be useful,
+LeMonADE  and ELMA-BraCat extension is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with LeMonADE.  If not, see <http://www.gnu.org/licenses/>.
+along with LeMonADE and ELMA-BraCat extension. If not, see <http://www.gnu.org/licenses/>.
 
 --------------------------------------------------------------------------------*/
 
@@ -30,13 +30,11 @@ along with LeMonADE.  If not, see <http://www.gnu.org/licenses/>.
 /**
  * @file
  *
- * @classUpdaterCreatorChainWalkingTertiaryBondWalking
+ * @class UpdaterCreatorBGRWTertiaryBondWalking
  *
- * @brief create Updater for a single Dendrimer in a melt of linear chains
+ * @brief create Updater for a BGRW structures and related creation properties
  * 
- * @details A single dendrimer with arbitrary generation, spacer length and functionality 
- * is created in a cubix box of arbitrary size togehter with linear chains of arbitrary 
- * length with arbitrary concentration
+ * @details A single BGRW structure is created in a cubix box of arbitrary size
  *
  * @tparam IngredientsType
  *

@@ -30,13 +30,12 @@ along with LeMonADE.  If not, see <http://www.gnu.org/licenses/>.
 /**
  * @file
  *
- * @classUpdaterCreatorChainWalkingTertiaryBondWalking
+ * @class UpdaterCreatorHyperstar
  *
- * @brief create Updater for a single Dendrimer in a melt of linear chains
+ * @brief create Updater for a hyperstar
  * 
- * @details A single dendrimer with arbitrary generation, spacer length and functionality 
- * is created in a cubix box of arbitrary size togehter with linear chains of arbitrary 
- * length with arbitrary concentration
+ * @details A single "hyperstar" is generated wich has an exact exponential
+ * node distribution p(f)=2^{-f}.
  *
  * @tparam IngredientsType
  *
